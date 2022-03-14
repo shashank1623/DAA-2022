@@ -24,19 +24,30 @@ int findFreq(vector <int> arr, int n , int key)
       }
       else
       {
+        
         freq = 1;
-        int mid2 = mid;
-        while(mid != start)
+        int fmid = mid + 1;
+        if(fmid!=n)
+        {
+          while(fmid <= end)
           {
-            freq++;
-            mid --;
+            if(arr[fmid]!=key)
+            {
+              break;
+            }
+              freq++;
+            fmid ++;
           }
-       
-        mid = mid2;
-        while(mid != end)
+        }
+        int bmid = mid -1;
+        while(bmid >= start)
           {
+            if(arr[bmid]!=key)
+            {
+              break;
+            }
             freq++;
-            mid++;
+            bmid--;
           }
         
         break;
