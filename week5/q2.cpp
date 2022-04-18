@@ -1,4 +1,16 @@
+/*
 
+Given an unsorted array of integers, design an algorithm and implement it using a program to 
+find whether two elements exist such that their sum is equal to the given key element. (Time 
+Complexity = O(n log n))
+
+Input Format: The first line contains number of test cases, T. For each test case, there will be two input 
+lines. First line contains n (the size of array). Second line contains space-separated integers describing 
+array. Third line contains key
+
+Output Format: The output will have T number of lines. For each test case, output will be the elements 
+arr[i] and arr[j] such that arr[i]+arr[j] = key if exist otherwise print 'No Such Elements Exist”.
+*/
 #include <iostream>
 #include <vector>
 #include<bits/stdc++.h>
