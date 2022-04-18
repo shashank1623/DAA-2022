@@ -1,4 +1,14 @@
+/*
+III. You have been given two sorted integer arrays of size m and n. Design an algorithm and 
+implement it using a program to find list of elements which are common to both. (Time Complexity 
+= O(m+n))
 
+Input Format: First line contains m (the size of first array). Second line contains m space-separated
+integers describing first array. Third line contains n (the size of second array). Fourth line contains n 
+space-separated integers describing second array.
+
+Output Format: Output will be the list of elements which are common to both.
+*/
 #include<iostream>
 #include<vector>
 
