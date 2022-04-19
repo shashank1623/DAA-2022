@@ -4,7 +4,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int partion(vector <int> arr, int p ,int r)
+int partion(vector <int> &arr, int p ,int r)
 {
     int x = arr[r];
     int i = p-1;
@@ -21,7 +21,7 @@ int partion(vector <int> arr, int p ,int r)
     return i+1;
 }
 
-void quick(vector <int> arr, int p, int r)
+void quick(vector <int> &arr, int p, int r)
 {
     if(p<r)
     {
@@ -55,3 +55,4 @@ int main()
         cout<<endl;
     }
 }
+
